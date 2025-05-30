@@ -1,0 +1,63 @@
+// Footer.scss
+.footer {
+    color: #fff;
+    background: #141414;
+
+    .footer-top {
+        padding: 40px 0;
+        background-color: #141414;
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        h5 {
+            margin-bottom: 12px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                font-size: 0.9rem;
+                margin-bottom: 10px;
+
+                a {
+                    color: #f3f3f3;
+                    text-decoration: none;
+                    i {
+                        font-size: 22px;
+                        vertical-align: middle;
+                    }
+                    span {
+                        margin-left: 5px;
+                    }
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        padding: 10px 0;
+        font-size: 14px;
+        color: #fff;
+        background-color: #000;
+        border-top: 1px solid #444343;
+    }
+}
+
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+   
+}
