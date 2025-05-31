@@ -40,7 +40,7 @@ body {
   }
 
   .main-app {
-    margin-top: 72px;
+    margin-top: 80px;
 
     // PAGE TITLE
     .page-title {
@@ -68,10 +68,11 @@ body {
         text-align: center;
         position: relative;
         z-index: 2;
+
         h2 {
           color: #ffffff;
           font-weight: 600;
-          text-transform: uppercase;
+          text-transform: capitalize;
         }
 
         .bread-crumb {
@@ -85,7 +86,7 @@ body {
             font-weight: 400;
             display: inline-block;
             font-size: 16px;
-            text-transform: uppercase;
+            text-transform: capitalize;
             color: #f3f3f3;
 
             a {
@@ -166,16 +167,37 @@ body {
 @media screen and (max-width: 480px) {
   body {
     .main-app {
-      margin-top: 59px;
+      margin-top: 76px;
 
       .section-title {
         padding: 0 10px;
+
         h3 {
           font-size: 22px;
         }
 
         p {
           font-size: 12px;
+        }
+      }
+
+      .page-title {
+        height: 200px;
+
+        .bread-crumb-content {
+          h2 {
+            font-size: 20px;
+            line-height: normal;
+          }
+
+          .bread-crumb {
+            margin-top: 8px;
+
+
+            li {
+              font-size: 14px;
+            }
+          }
         }
       }
     }

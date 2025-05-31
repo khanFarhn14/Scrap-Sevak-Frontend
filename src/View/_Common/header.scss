@@ -1,11 +1,12 @@
   .navbar {
-      height: 72px;
+      height: 80px;
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       z-index: 800;
       padding: 0;
+      overflow: hidden;
       background-color: #ffffff;
       box-shadow: 0 1px 1px rgba(33, 40, 48, 0.01), 0 4px 4px rgba(33, 40, 48, 0.01), 0 16px 16px rgba(33, 40, 48, 0.01);
 
@@ -21,7 +22,7 @@
           flex-grow: inherit;
 
           .nav-link {
-              padding: 26px 15px;
+              padding: 30px 15px;
               color: #424242;
               font-size: 14px;
               font-weight: 500;
@@ -32,7 +33,7 @@
               &:hover,
               &.active {
                   color: #ffffff;
-                  background-color: #141414;
+                  background-color: #2e994c;
               }
           }
       }
@@ -48,7 +49,7 @@
 
           .navbar-brand {
               img {
-                  width: 40px;
+                  width: 60px;
                   object-fit: contain;
               }
           }
@@ -77,8 +78,19 @@
                   align-items: start;
 
                   .nav-link {
-                       padding: 5px;
                       margin-bottom: 10px;
+                      padding: 5px 0;
+                      text-align: left;
+                      display: block;
+                      border-bottom: 1px solid #c1c1c1;
+                      width: 100%;
+                      font-size: 20px;
+
+                      &:hover,
+                      &.active {
+                          color: #2e994c;
+                          background-color: transparent;
+                      }
                   }
               }
           }

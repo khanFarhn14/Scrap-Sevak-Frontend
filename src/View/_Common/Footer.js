@@ -9,21 +9,21 @@ export default function Footer() {
                 <div className="footer-top">
                     <Container>
                         <Row className="gy-4">
-                            <Col md={4}>
+                            <Col md={4} className="footer-col">
                                 <div className="footer-title">
                                     <h2>Scrap Sevak</h2>
                                     <h3>Your truster partner for scrap  <br /> recycling solutions.</h3>
                                 </div>
 
                             </Col>
-                            <Col md={4}>
+                            <Col md={4} className="footer-col">
                                 <h5 className="text-uppercase">Contact</h5>
                                 <ul>
                                     <li><a href="#">+91 9594 455685</a></li>
                                     <li><a href="#">info@scrapsevak.com</a></li>
                                 </ul>
                             </Col>
-                            <Col md={4}>
+                            <Col md={4} className="footer-col">
                                 <h5 className="text-uppercase">Social</h5>
                                 <ul>
                                     <li><a href="#"><i className="ri-facebook-fill"></i> <span>Facebook</span></a></li>
