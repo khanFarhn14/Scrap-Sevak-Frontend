@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Nav } from "react-bootstrap";
 
 export default function Footer() {
     return (
@@ -19,16 +19,16 @@ export default function Footer() {
                             <Col md={4} className="footer-col">
                                 <h5 className="text-uppercase">Contact</h5>
                                 <ul>
-                                    <li><a href="#">+91 9594 455685</a></li>
-                                    <li><a href="#">info@scrapsevak.com</a></li>
+                                    <li><Nav.Link as={Link}>+91 9594 455685</Nav.Link></li>
+                                    <li><Nav.Link as={Link}>info@scrapsevak.com</Nav.Link></li>
                                 </ul>
                             </Col>
                             <Col md={4} className="footer-col">
                                 <h5 className="text-uppercase">Social</h5>
                                 <ul>
-                                    <li><a href="#"><i className="ri-facebook-fill"></i> <span>Facebook</span></a></li>
-                                    <li><a href="#"><i className="ri-linkedin-box-fill"></i> <span>Linkdin</span></a></li>
-                                    <li><a href="#"><i className="ri-instagram-line"></i> <span>Instagram</span></a></li>
+                                    <li><Nav.Link as={Link}><i className="ri-facebook-fill"></i> <span>Facebook</span></Nav.Link></li>
+                                    <li><Nav.Link as={Link}><i className="ri-linkedin-box-fill"></i> <span>Linkdin</span></Nav.Link></li>
+                                    <li><Nav.Link as={Link}><i className="ri-instagram-line"></i> <span>Instagram</span></Nav.Link></li>
                                 </ul>
                             </Col>
                            
