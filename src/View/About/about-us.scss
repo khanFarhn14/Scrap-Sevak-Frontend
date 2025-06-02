@@ -15,11 +15,13 @@
         p {
             font-size: 16px;
             margin-top: 1rem;
+                text-align: justify;
         }
     }
 
 
     .scrap-shop-img {
+        padding: 0 20px;
         img {
             width: 100%;
         }
@@ -42,5 +44,9 @@
                 font-size: 14px;
             }
         }
+
+         .scrap-shop-img {
+            padding: 0;
+         }
     }
 }
