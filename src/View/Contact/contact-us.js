@@ -89,7 +89,7 @@ export default function Contact() {
 
                                         <Col md={12}>
                                             <div>
-                                                <Button variant="success">Send Message</Button>
+                                                <Button variant="success" className="btn-class">Send Message</Button>
                                             </div>
                                         </Col>
                                     </Row>
