@@ -39,8 +39,18 @@ body {
     text-decoration: none;
   }
 
+
+  .btn-class {
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 18px 36px;
+    line-height: normal;
+    background-color: #33944E;
+  }
+
   .main-app {
     margin-top: 80px;
+
 
     // PAGE TITLE
     .page-title {
@@ -166,6 +176,10 @@ body {
 // MOBILE VIEW MEDIA QUERY
 @media screen and (max-width: 480px) {
   body {
+    .btn-class {
+      padding: 15px 30px;
+    }
+
     .main-app {
       margin-top: 76px;
 
