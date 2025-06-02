@@ -20,7 +20,7 @@ export default function Home() {
                     <div className="home-section-content">
                         <h1 data-aos="fade-up" data-aos-delay="500">Mumbai’s first scrap app: Clean. Green. Mumbai’s <br /> Scrap  Revolution Begins Here.</h1>
                         <p data-aos="fade-up" data-aos-delay="600">Your trusted partner for easy scrap recycling solutions <br />and sustainable waste management.</p>
-                        <Button variant="success" onClick={handleClick} data-aos="fade-up" data-aos-delay="700">Download Now!</Button>
+                        <Button variant="success" className="btn-class" onClick={handleClick} data-aos="fade-up" data-aos-delay="700">Download Now!</Button>
                     </div>
                 </Container>
             </section>
