@@ -48,6 +48,13 @@ body {
     background-color: #33944E;
   }
 
+  .form-control {
+    &:focus {
+      border-color: #2e994c;
+    }
+
+  }
+
   .main-app {
     margin-top: 80px;
 
