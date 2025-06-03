@@ -20,7 +20,7 @@ export default function Footer() {
                             <Col md={4} className="footer-col">
                                 <h5 className="text-uppercase">Contact</h5>
                                 <ul>
-                                    <li><Nav.Link as={Link}>+91 9594 455685</Nav.Link></li>
+                                    <li><Nav.Link as={Link}>+91 7304012347</Nav.Link></li>
                                     <li><Nav.Link as={Link}>info@scrapsevak.com</Nav.Link></li>
                                 </ul>
                             </Col>
@@ -36,7 +36,7 @@ export default function Footer() {
                         </Row>
                     </Container>
                 </div>
-                <div className="text-center copyright">Copyright © 2025 | Scrap App | All Rights Reserved.</div>
+                <div className="text-center copyright">Copyright © 2025 | Scrap Sevak | All Rights Reserved.</div>
             </footer>
         </React.Fragment>
     )

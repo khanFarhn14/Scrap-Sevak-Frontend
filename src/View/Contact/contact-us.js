@@ -30,15 +30,15 @@ export default function Contact() {
                                         <div className="contact-info">
                                             <i className="ri-map-pin-line"></i>
                                             <h3>Address</h3>
-                                            <p>Scrap Sevak C-210, Sector-49 NOIDA,UP 201301 INDIA</p>
+                                            <p>GROUND FLOOR PLOT NO-43, SHOP NO-16 RAJA BAHADUR BUILDING HUTATMA CHOWK, MUDHANA SHETTY MARG,Mumbai-400001</p>
                                         </div>
                                     </Col>
                                     <Col md={6}>
                                         <div className="contact-info">
                                             <i className="ri-phone-line"></i>
                                             <h3>Call Us</h3>
-                                            <p>+91 9594 455685</p>
-                                            <p>+91 9594 455685</p>
+                                            <p>+91 7304012347</p>
+                                            <p>+91 9820540559</p>
                                         </div>
                                     </Col>
                                     <Col md={6}>
@@ -54,7 +54,7 @@ export default function Contact() {
                                         <div className="contact-info">
                                             <i className="ri-time-line"></i>
                                             <h3>Open Hours</h3>
-                                            <p>Monday - Friday</p>
+                                            <p>Monday - Saturday</p>
                                             <p>10:00AM - 07:00PM</p>
                                         </div>
                                     </Col>
