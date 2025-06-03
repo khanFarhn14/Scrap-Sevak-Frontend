@@ -1,15 +1,28 @@
 import React from "react";
 import "./home.scss";
-import { useNavigate } from "react-router-dom";
 import { Button, Container, Row, Col, Card, Image } from "react-bootstrap";
 import cardBoard1 from "../../assets/img/home/cardboard-1.png";
 import cardBoard2 from "../../assets/img/home/cardboard-2.png";
 
 export default function Home() {
-    const navigate = useNavigate();
-
     const handleClick = () => {
-        navigate('/contact');
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        // Android
+        if (/android/i.test(userAgent)) {
+            window.location.href = "https://play.google.com/store/games?hl=en_IN&pli=1";
+        }
+        // iOS (iPhone, iPad, iPod)
+        else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            window.location.href = "https://www.apple.com/in/app-store/";
+        }
+        // Windows
+        else if (navigator.userAgent.indexOf("Windows") !== -1) {
+            window.location.href = "https://play.google.com/store/games?hl=en_IN&pli=1";
+        }
+        // macOS
+        else if (navigator.userAgent.indexOf("Macintosh") !== -1) {
+            window.location.href = "https://www.apple.com/in/app-store/";
+        }
     };
 
     return (
