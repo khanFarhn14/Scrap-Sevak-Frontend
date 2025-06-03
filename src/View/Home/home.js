@@ -9,19 +9,19 @@ export default function Home() {
         const userAgent = navigator.userAgent || navigator.vendor || window.opera;
         // Android
         if (/android/i.test(userAgent)) {
-            window.location.href = "https://play.google.com/store/games?hl=en_IN&pli=1";
+            window.location.href = "https://play.google.com/store/apps/details?id=com.gazitraders.ScrapSevak";
         }
         // iOS (iPhone, iPad, iPod)
         else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-            window.location.href = "https://www.apple.com/in/app-store/";
+            window.location.href = "https://apps.apple.com/in/app/scrap-sevak/id6739633894";
         }
         // Windows
         else if (navigator.userAgent.indexOf("Windows") !== -1) {
-            window.location.href = "https://play.google.com/store/games?hl=en_IN&pli=1";
+            window.location.href = "https://play.google.com/store/apps/details?id=com.gazitraders.ScrapSevak";
         }
         // macOS
         else if (navigator.userAgent.indexOf("Macintosh") !== -1) {
-            window.location.href = "https://www.apple.com/in/app-store/";
+            window.location.href = "https://apps.apple.com/in/app/scrap-sevak/id6739633894";
         }
     };
 
