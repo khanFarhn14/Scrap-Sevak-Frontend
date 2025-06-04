@@ -5,7 +5,6 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 export default function Contact() {
     return (
         <React.Fragment>
-            <React.Fragment>
                 <div className="page-title">
                     <Container>
                         <div className="bread-crumb-content">
@@ -99,7 +98,6 @@ export default function Contact() {
                         </Row>
                     </Container>
                 </section>
-            </React.Fragment>
         </React.Fragment>
     )
 }

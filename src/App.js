@@ -9,6 +9,7 @@ import About from './View/About/about-us';
 import Contact from './View/Contact/contact-us';
 import Header from './View/_Common/Header';
 import Footer from './View/_Common/Footer';
+import NGO from './View/Donation/ngo';
 
 export default function App() {
    useEffect(() => {
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/donation" element={<NGO />} />
           </Routes>
         </div>
         <Footer />
