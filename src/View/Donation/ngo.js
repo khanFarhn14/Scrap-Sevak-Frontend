@@ -11,7 +11,7 @@ export default function NGO() {
                         <h2>Scrap Sevak</h2>
                         <ul className="bread-crumb clearfix">
                             <li><a href="/">Home</a></li>
-                            <li>Donation</li>
+                            <li>Donate Us</li>
                         </ul>
                     </div>
                 </Container>
@@ -19,7 +19,7 @@ export default function NGO() {
             <section className="ngo-section">
                 {/* <Container>
                     <div className="section-title" data-aos="fade-up">
-                        <h3>Donation</h3>
+                        <h3>Donate Us</h3>
                         <p>To donate scrap materials in Mumbai, you'll want to find local businesses or organizations that specialize in recycling</p>
                     </div>
                 </Container> */}
