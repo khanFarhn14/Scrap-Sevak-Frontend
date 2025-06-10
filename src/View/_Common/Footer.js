@@ -27,9 +27,12 @@ export default function Footer() {
                             <Col md={4} className="footer-col">
                                 <h5 className="text-uppercase">Social</h5>
                                 <ul>
-                                    <li><Nav.Link as={Link}><i className="ri-facebook-fill"></i> <span>Facebook</span></Nav.Link></li>
-                                    <li><Nav.Link as={Link}><i className="ri-linkedin-box-fill"></i> <span>Linkdin</span></Nav.Link></li>
-                                    <li><Nav.Link as={Link}><i className="ri-instagram-line"></i> <span>Instagram</span></Nav.Link></li>
+                                    <li><Nav.Link as="a" href="https://www.facebook.com/61573548068759"><i className="ri-facebook-fill"></i> <span>Facebook</span></Nav.Link></li>
+                                    {/* <li><Nav.Link as={Link}><i className="ri-linkedin-box-fill"></i> <span>Linkdin</span></Nav.Link></li> */}
+                                    <li><Nav.Link as="a" href="https://www.instagram.com/scrapsevak?igsh=MXhhbXBwODBoMWFvYg==">
+                                        <i className="ri-instagram-line"></i> <span>Instagram</span>
+                                        </Nav.Link>
+                                        </li>
                                 </ul>
                             </Col>
                            
